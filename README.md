@@ -6,7 +6,8 @@ This is a template that I like to use as a starting point for my Clojurescript p
 
 | Name         | Version |
 |--------------|---------|
-| shadow-cljs  | 2.11.6  |
+| shadow-cljs  | 2.11.14  |
+| reagent      | 1.0.0   |
 | tailwindcss  | 1.9.6   |
 | onchange     | 7.1.0   |
 | concurrently | 5.3.0   |
