@@ -11,3 +11,11 @@ This is a template that I like to use as a starting point for my Clojurescript p
 
 ## Commands
 
+You can run an application using `make` command. 
+```shell
+# Run development mode with
+make watch 
+
+# Build production version with
+make release
+```
