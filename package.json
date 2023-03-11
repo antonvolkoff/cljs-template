@@ -2,25 +2,12 @@
   "name": "cljs-template",
   "author": "Anton Volkov",
   "license": "MIT",
-  "scripts": {
-    "build": "npm run build:css && npm run build:cljs",
-    "build:css": "postcss styles/main.css -o resources/public/css/main.css",
-    "build:cljs": "shadow-cljs compile app",
-    "watch": "concurrently 'npm:watch:cljs' 'npm:watch:css'",
-    "watch:cljs": "shadow-cljs watch app",
-    "watch:css": "onchange 'styles/*css' -- npm run build:css"
-  },
+  "scripts": {},
   "devDependencies": {
-    "autoprefixer": "10.2.1",
-    "concurrently": "5.3.0",
-    "onchange": "7.1.0",
-    "postcss": "8.2.4",
-    "postcss-cli": "8.3.1",
-    "shadow-cljs": "2.22.1",
-    "tailwindcss": "2.0.2"
+    "shadow-cljs": "2.22.1"
   },
   "dependencies": {
-    "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
   }
 }
