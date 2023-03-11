@@ -1,10 +1,11 @@
-{:source-paths ["src"]
- :dependencies [[reagent "1.0.0"]]
- :builds {:app {:target :browser
-                :output-dir "resources/public/js"
-                :asset-path "/js"
+{:deps true
 
-                :modules {:main {:init-fn app.main/main!}}
+ :builds
+ {:app {:target :browser
+        :output-dir "resources/public/js"
+        :asset-path "/js"
 
-                :devtools {:http-root "resources/public"
-                           :http-port 8080}}}}
+        :modules {:main {:init-fn app.main/main!}}
+
+        :devtools {:http-root "resources/public"
+                   :http-port 8080}}}}

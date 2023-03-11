@@ -16,7 +16,7 @@
     "onchange": "7.1.0",
     "postcss": "8.2.4",
     "postcss-cli": "8.3.1",
-    "shadow-cljs": "2.11.14",
+    "shadow-cljs": "2.22.1",
     "tailwindcss": "2.0.2"
   },
   "dependencies": {

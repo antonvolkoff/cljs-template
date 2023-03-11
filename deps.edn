@@ -1,0 +1,10 @@
+{:paths
+ ["src" "test"]
+
+ :deps
+ {thheller/shadow-cljs {:mvn/version "2.22.1"}
+  reagent/reagent {:mvn/version "1.2.0"}}
+
+ :aliases
+ {:shadow-cljs {:extra-deps {}
+                :main-opts ["-m" "shadow.cljs.devtools.cli"]}}}
